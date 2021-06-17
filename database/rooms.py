@@ -9,10 +9,10 @@ from datetime import datetime
 #     USO EN DESARROLLO     #
 #############################
 
-os.environ['MYSQL_HOST'] = "192.168.3.250"
-os.environ['MYSQL_USER'] = "user"
-os.environ['MYSQL_PASS'] = "password"
-os.environ['MYSQL_DB'] = "db"
+#os.environ['MYSQL_HOST'] = "192.168.3.250"
+#os.environ['MYSQL_USER'] = "user"
+#os.environ['MYSQL_PASS'] = "password"
+#os.environ['MYSQL_DB'] = "db"
 
 ###################################
 

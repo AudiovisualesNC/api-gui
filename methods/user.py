@@ -1,10 +1,10 @@
-from classes.UserInDB import UserInDB
-from methods.password import *
-from database.users import *
+
+from .password import *
+from ..database import users
 
 
 def authenticate_user(username: str, password: str):
-    user = get_user(username)
+    user = users.get_user(username)
 
     if not user:
         return False
